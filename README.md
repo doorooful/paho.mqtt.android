@@ -30,3 +30,14 @@ so if you want to retrieve any .jar from the package, refer followings.
 (.aar outputs are under `~/paho.mqtt.android/org.eclipse.paho.android.service/build/outputs/aar`)
 
 # How to apply from Android Studio
+### 1. add .jar file upder the app/lib from project view
+### 2. add implementation files dependencies:
+```
+dependencies {
+    ...
+    implementation files('lib/org.eclipse.paho.client.mqttv3-1.2.5.jar')
+    implementation files('lib/org.eclipse.paho.android.service-1.1.1.jar')
+    ...
+}
+```
+### 3. Finally, you can change sdk version! -> 31 or above!
