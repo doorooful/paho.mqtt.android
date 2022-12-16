@@ -14,7 +14,7 @@ so if you want to retrieve any .jar from the package, refer followings.
 - I've modified more build configurations to build package rather than copying whole codes.
 
 # :yellow_heart: How to build
-## Build from source before use
+## :arrow_right: Build from source
 ### 1. Clone following repositories at the same path
 - https://github.com/doorooful/paho.mqtt.android
 - https://github.com/eclipse/paho.mqtt.java
@@ -29,7 +29,7 @@ so if you want to retrieve any .jar from the package, refer followings.
 - File: `org.eclipse.paho.android.service-1.1.1.jar`
 (.aar outputs are under `~/paho.mqtt.android/org.eclipse.paho.android.service/build/outputs/aar`)
 
-# How to apply from Android Studio
+# :yellow_heart: How to apply from Android Studio
 ### 1. add .jar file under the app/lib from project view
 ### 2. add implementation files dependencies:
 ```
